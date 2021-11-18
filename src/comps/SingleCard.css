@@ -33,3 +33,13 @@
   transform: rotateY(90deg);
   transition-delay: 0s;
 }
+
+@media only screen and (max-width: 945px) {
+  .card {
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    width: 100px;
+    height: 100px;
+  }
+}
